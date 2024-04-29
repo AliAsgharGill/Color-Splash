@@ -1,0 +1,35 @@
+{
+  "name": "color-splash",
+  "version": "0.0.1",
+  "description": "Make your console colorful with color-splash",
+  "main": "lib/index.js",
+  "types":"lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AliAsgharGill/Color-Splash.git"
+  },
+  "keywords": [
+    "colorfull-console",
+    "color-spalsh",
+    "splash-color",
+    "colorfull",
+    "console-colors",
+    "colors"
+  ],
+  "author": "Ali Asghar Gill",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AliAsgharGill/Color-Splash/issues"
+  },
+  "homepage": "https://github.com/AliAsgharGill/Color-Splash#readme",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
